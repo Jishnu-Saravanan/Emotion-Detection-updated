@@ -29,7 +29,7 @@ change_list = []
 model = timm.create_model("tf_efficientnet_b0_ns", pretrained=False)
 model.classifier = nn.Sequential(nn.Linear(in_features=1280, out_features=7))
 model = torch.load(
-    "C:/Users/jishn/OneDrive/Desktop/Emotion Detection Project/22.6_AffectNet_10K_part2.pt",
+    "22.6_AffectNet_10K_part2.pt",
     map_location=device,
 )
 model.to(device)
