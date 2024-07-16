@@ -1,0 +1,10 @@
+streamlit==1.35.0
+opencv-contrib-python==4.10.0.84
+opencv-python==4.9.0.80
+torch
+torchvision
+numpy
+timm==1.0.3
+mediapipe
+pandas
+pillow
